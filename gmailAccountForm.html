@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <title>Gmail Account Form</title>
+    <style type="text/css">
+        
+        video{
+            position: fixed;
+        }
+        div{
+            position: absolute;
+            top: 15%;
+            left: 35%;
+            min-width: 350px;
+            border: 1px solid rgb(238, 11, 11);
+            border-radius: 4px;
+            padding-left: 40px;
+        }   
+        input{
+            width: 300px;
+            min-width: 100px;
+            border: none;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: whitesmoke;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        input:focus{
+            outline: none;
+            color: black;
+            background-color: rgba(136, 140, 143, 0.35);
+        }
+        button{
+            margin: 20px;
+            width: 80px;
+            border-radius: 4px;
+            height: 30px;
+            color: white;
+            font-size: 18px;
+            border: none;
+            background-color: rgb(1, 102, 243);
+        }
+    </style>
+</head>
+<body>
+    <section id="block">
+        <video autoplay muted loop >
+            <source src="C:\AkshayPillai_HTML&CSS_Lab\Background.mp4" type="video/mp4">
+        </video>
+        <div>
+            <form action="" id="lab-form">
+                <h1>Create Gmail Account</h1>
+                <input type="text" title="name" placeholder="Full Name" required>
+                <br>
+                <input type="number" title="contact_no" min="6000000000" max="9999999999" placeholder="Contact Number" required>
+                <br>
+                <input type="email" title="email" placeholder="Enter email id" required>
+                <br>
+                <button form="lab-form">Reset</button>
+                <button form="lab-form">Submit</button>
+        </form>
+        </div>
+    </section>
+</body>
+</html>
